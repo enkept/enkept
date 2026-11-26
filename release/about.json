@@ -1,0 +1,120 @@
+{
+  "version": "v19.4",
+  "released": "03-Dec-2026",
+  "description": "Enkept is a people operations platform that keeps the whole employee lifecycle in one place — hiring, attendance, leave, payroll inputs, assets, documents, learning and recognition. It is built for operations teams who want a single, consistent portal instead of a stack of disconnected tools.",
+  "facts": [
+    {
+      "label": "Modules live",
+      "value": "24",
+      "hint": "People to Finance"
+    },
+    {
+      "label": "Release cadence",
+      "value": "Fortnightly",
+      "hint": "Every alternate Friday"
+    },
+    {
+      "label": "Support window",
+      "value": "9am – 9pm IST",
+      "hint": "Mon to Sat"
+    },
+    {
+      "label": "Data residency",
+      "value": "India",
+      "hint": "Mumbai region"
+    }
+  ],
+  "releases": [
+    {
+      "version": "v19.4",
+      "date": "03-Dec-2026",
+      "current": true,
+      "notes": [
+        "Benefit offerings — availing is limited to the benefit start date and offering window, time-slot validation, geolocation areas need at least 3 coordinates, face-match camera fix and edits update the offering instead of duplicating it.",
+        "Payroll groups — change or reassign groups, default group on new employees, new table structure and clearer error messages.",
+        "Pay runs — \"All\" option for past, current and yearly payroll generation, pay-run generation and bulk delete fixes, month filter and month-year display on Pay run and Pay history.",
+        "Performance goals — cascaded goal, goal title and cycle filter fixes, with Job Role Competencies reachable under Configuration.",
+        "Alumni portal — global search on sub tabs, automatic logout on rejoining and boomerang rehires counted in admin alumni views.",
+        "Staff portal — pages and tabs are searchable and Apply Leave sits in the header.",
+        "Staff events and loans — rejoin entries, event time zone and loan repayment decimal validation fixed.",
+        "Security and audit — Content-Security-Policy headers, XSS hardening, and activity log for logins, logouts, asset and subscription assignment."
+      ]
+    },
+    {
+      "version": "v19.3",
+      "date": "19-Nov-2026",
+      "notes": [
+        "Payroll groups — monthly salary with per-group attendance windows, month-aligned staff assignment and pay-run initiation rules.",
+        "Staff loans — schedules, manual repayment, pause instalments, payroll vs manual paid status and interest modes.",
+        "Staff giving and pledges — admin and self-service flows with payroll integration fixes across the release.",
+        "Embedded Metabase analytics — custom dashboards with Apply on filters, session stability and payroll-ready PDF export.",
+        "Asset subscriptions — auto-renewal status on start date, renewal records from new subscriptions and subscription dashboard.",
+        "Module subscriptions for super-admin — trial defaults, grants, pricing and asset subscription entitlements per merchant.",
+        "Performance salary revision captures current salary validation and ties revision design to staff payroll.",
+        "Notifications hardening — email/SMS templates and history, per-merchant disable for SMTP/integrations, timezone on email history."
+      ]
+    },
+    {
+      "version": "v19.2",
+      "date": "02-Nov-2026",
+      "notes": [
+        "Switch between Admin and Staff from the sidebar — one linked session, logout clears both without signing in again.",
+        "Asset management on ek-next — subscriptions, renewals tab, provision and booking notes, reports and view/manage screens.",
+        "Prior payroll upload for migrations and historical months with corrected month labelling on staff payroll views.",
+        "Document Hub — org docs and issued documents with permission fixes for staff and admin.",
+        "Organization refresh — Business Partners (formerly vendors), sites and locations, and business partner flows in People.",
+        "Global search — permission-aware quick actions, stable column layout on multi-tab modules and first-load filter fixes.",
+        "Performance reviews — eligibility without redundant user filters; salary/revision UI aligned with payroll expectations.",
+        "Recognition and awards — staff appreciation entry points and award program view/manage stability on the new theme."
+      ]
+    },
+    {
+      "version": "v19.1",
+      "date": "03-Oct-2026",
+      "notes": [
+        "Staff events on every person record — one timeline for joining, probation, transfers, deputation, training, separation and more.",
+        "ek-next Home2 layout rolled across admin and staff — FTE, Document Hub, Resource Booking, Integrations and core landing tabs.",
+        "Navigation regrouped under Time & Presence (attendance, leave, geo track, timesheets) and Engage (documents, benefits).",
+        "Alumni portal and directory — search, separation date, organization page and home experience for alumni users.",
+        "Resource booking and notices aligned with the new home; staff booking actions simplified where design required.",
+        "Leave adjustments and approval messaging polish; work-hub onboarding and separation links in Me and My Team.",
+        "Organization setups use consistent ek-next headers, back navigation and permission-aware setup cards.",
+        "Maps in settings use Leaflet / OpenStreetMap instead of legacy map provider."
+      ]
+    },
+    {
+      "version": "v19.0",
+      "date": "25-Sep-2026",
+      "notes": [
+        "Admin home refresh — celebrate birthdays and milestones, appreciation given/received tabs and clearer admin tab names.",
+        "Proof of investments — bulk copy and approve by section, highlighted fields and approver workflows on staff records.",
+        "Tax liabilities and TDS challans — associated vs unassociated challans with split-up view for finance.",
+        "Payroll reports and salary hold/withhold behaviour aligned with paid status and downloadable XLS where supported.",
+        "Forum — category filters on My topics and bookmarks, comment controls and long-name layout on staff views.",
+        "Performance — copy review setup and submissions; template copy in configuration; separated employees excluded from new launches where intended.",
+        "Recruitment — public screening answers visible in admin, interviewer assignment on interview rounds, onboarding tasks dates validated.",
+        "Staff ID cards show your organization logo; merchant country code defaults from org profile."
+      ]
+    },
+    {
+      "version": "v18.3",
+      "date": "12-Sep-2026",
+      "notes": [
+        "Expense management end to end — advances, claims, draft reports, trips with itineraries, batch export and reimbursement through payroll.",
+        "Asset register overhauled — record details, movement register, assignment and termination workflow, maintenance schedules and category dashboard.",
+        "Attendance engine fixes for open shift, grace period, weekly-off on no-punch days and more reliable connector sync.",
+        "Device connectors and custom user mapping — clearer logs, payload view, direction mapping and date/time field formats for imports.",
+        "Kiosk bulk file import respects explicit IN/OUT in the file or auto first-in / rest-out when the column is blank.",
+        "Benefits for staff — richer category navigation, history and portal listing aligned with admin setup.",
+        "Payroll statutory setup and investment declaration flows refined for new merchants and staff POI.",
+        "Rich text across settings moves from TinyMCE to Tiptap (self-hosted, lazy-loaded)."
+      ]
+    }
+  ],
+  "connect": {
+    "showForm": false,
+    "showShare": true,
+    "supportEmail": "support@enkept.com",
+    "replyWithin": "one working day"
+  }
+}
